@@ -3,11 +3,45 @@
 
 #include "pch.h"
 #include <iostream>
+bool gameOver;
+void Setup() {
+	gameOver = false;
+}
+
+void Draw() {
+
+}
+
+void Input() {
+	int GridSize;
+
+	cout >> "What do you want your gridsize to be?"
+		cin << GridSize;
+}
+
+void Logic() {
+
+}
+
+int main() {
+
+
+}
 
 int main()
 {
+
+
+
 	int Int;
 	int Int2;
+	
+		Setup();
+	while (!gameOver) {
+		Draw();
+		Input();
+		Logic();
+	}
 	std::cin >> Int;
 	std::cin >> Int2;
     std::cout << "Hello World!\n" << Int; 
