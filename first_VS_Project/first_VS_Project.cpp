@@ -7,6 +7,7 @@
 int main()
 {
 	int Int;
+	//test commit
 	int Int2;
 	std::cin >> Int;
 	std::cin >> Int2;
